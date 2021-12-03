@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "Sdvx Quick Launch",
+	"version": "1.0",
+
+	"description": "Quickly launch your Sound Voltex launcher and close the tab without clicking in browser yourself",
+
+	"icons": {
+		"48": "icons/icon-48.jpg"
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["https://p.eagate.573.jp/game/konasteapp/API/login/login.html?game_id=sdvx"],
+			"js": ["script.js"]
+		}
+	]
+}
