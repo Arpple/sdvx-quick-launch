@@ -11,7 +11,7 @@
 
 	"content_scripts": [
 		{
-			"matches": ["https://p.eagate.573.jp/game/konasteapp/API/login/login.html?game_id=sdvx"],
+			"matches": ["https://p.eagate.573.jp/game/konasteapp/API/login/login.html?game_id=sdvx*"],
 			"js": ["script.js"]
 		}
 	]
